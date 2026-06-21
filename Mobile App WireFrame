@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Delivery App Wireframe</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#e6e6e6;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.phone{
+    width:330px;
+    background:white;
+    border:5px solid black;
+    border-radius:25px;
+    overflow:hidden;
+}
+
+.header{
+    background:#444;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:22px;
+}
+
+.screen{
+    padding:15px;
+    border-bottom:2px solid #ddd;
+}
+
+.title{
+    text-align:center;
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.input{
+    width:100%;
+    padding:10px;
+    border:1px solid #999;
+    margin-bottom:10px;
+}
+
+.button{
+    width:100%;
+    padding:10px;
+    background:#555;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.search{
+    width:100%;
+    padding:10px;
+    border:1px solid #999;
+    margin-bottom:15px;
+}
+
+.box{
+    border:1px solid #888;
+    padding:12px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.footer{
+    text-align:center;
+    padding:10px;
+    background:#444;
+    color:white;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="phone">
+
+<div class="header">
+Food Delivery App
+</div>
+
+<!-- Login Screen -->
+<div class="screen">
+<div class="title">Login</div>
+
+<input class="input" type="text" placeholder="Email">
+
+<input class="input" type="password" placeholder="Password">
+
+<button class="button">Login</button>
+
+</div>
+
+<!-- Home Screen -->
+<div class="screen">
+
+<div class="title">Home</div>
+
+<input class="search" type="text" placeholder="Search Restaurant">
+
+<div class="box">🍔 Burger</div>
+
+<div class="box">🍕 Pizza</div>
+
+<div class="box">🥗 Salad</div>
+
+<div class="box">🍗 Chicken</div>
+
+</div>
+
+<!-- Food Details -->
+<div class="screen">
+
+<div class="title">Food Details</div>
+
+<div class="box">
+Burger<br><br>
+Price: ₹199
+</div>
+
+<button class="button">Add to Cart</button>
+
+</div>
+
+<!-- Cart -->
+<div class="screen">
+
+<div class="title">Cart</div>
+
+<div class="box">
+Burger × 1
+</div>
+
+<div class="box">
+Total : ₹199
+</div>
+
+<button class="button">Checkout</button>
+
+</div>
+
+<!-- Payment -->
+<div class="screen">
+
+<div class="title">Payment</div>
+
+<div class="box">UPI</div>
+
+<div class="box">Credit / Debit Card</div>
+
+<div class="box">Cash on Delivery</div>
+
+<button class="button">Pay Now</button>
+
+</div>
+
+<!-- Order Success -->
+<div class="screen">
+
+<div class="title">Order Successful</div>
+
+<div class="box">
+✔ Thank You!<br><br>
+Your order has been placed.
+</div>
+
+<button class="button">Track Order</button>
+
+</div>
+
+<div class="footer">
+Low-Fidelity Wireframe
+</div>
+
+</div>
+
+</body>
+</html>
